@@ -1,5 +1,6 @@
 body {
     background-color: rgb(254, 217, 183);
+    text-decoration: none;
 }
 
 .navigation {
@@ -48,6 +49,7 @@ p {
 
 .navigation a:hover {
     color: rgb(0, 175, 185);
+    text-decoration: none;
 }
 
 .navigation li:hover {

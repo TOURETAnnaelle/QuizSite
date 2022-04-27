@@ -27,6 +27,7 @@ next.addEventListener('click', NextQuestion)
 
 function StartGame() {
     console.log('Started')
+    QuizQuestion = questions.sort(() => Math.random() - .5);
     next.innerText = 'Next'
     progressText.innerText = 'Question'
     progressText.style.color = 'black'
